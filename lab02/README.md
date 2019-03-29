@@ -291,7 +291,7 @@ openssl pkcs12 -export \
     -name "Fred Flintstone" \
     -inkey certs/fred.key \
     -in certs/fred.crt \
-    -certfile signing-ca-chain.pem \
+    -certfile ca/signing-ca-chain.pem \
     -out certs/fred.p12
 ```
 
